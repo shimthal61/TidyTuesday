@@ -1,0 +1,18 @@
+---
+title: "Weather Forecasts"
+output:
+  html_document:
+    theme: flatly
+    toc: yes
+    toc_float: yes
+    font:family: Lato
+  pdf_document:
+    toc: yes
+---
+
+library(tidytuesdayR)
+library(tidyverse)
+
+data <- tidytuesdayR::tt_load('2022-12-20')
+
+data
